@@ -20,5 +20,3 @@ class Product(models.Model):
         if self.image:
             return f'http://127.0.0.1:8000' + self.image.url
         return ''
-
-
